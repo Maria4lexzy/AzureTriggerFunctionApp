@@ -3,7 +3,7 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
 using Microsoft.Extensions.Logging;
 
-namespace UADataTriggerFunction
+namespace DataTriggerFunction
 {
     public static class UA_DataTrigger
     {
