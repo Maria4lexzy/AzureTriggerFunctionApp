@@ -12,7 +12,7 @@ namespace DataTriggerFunction
     public static class UA_DataTrigger
     {
         [FunctionName("UA_DataTrigger")]
-        public static async Task RunAsync([TimerTrigger("0 2 * * * *")]TimerInfo myTimer, ILogger log)
+        public static async Task RunAsync([TimerTrigger("2 * * * * *")]TimerInfo myTimer, ILogger log)
         {
         log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
             int retrieveAllData = 13;
